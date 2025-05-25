@@ -8,23 +8,23 @@ interface TeamMemberData {
 const teamMembers: TeamMemberData[] = [
   { 
     name: "Made Narayan Dananjaya",
-    image: "/assets/team/member.svg"
+    image: "/assets/about/member-danan.svg"
   },
   { 
     name: "Naufal Alif Zhafran",
-    image: "/assets/team/member.svg"
+    image: "/assets/about/member-naufal.svg"
   },
   { 
     name: "Ni Nyoman Chandra P. I. W",
-    image: "/assets/team/member.svg"
+    image: "/assets/about/member-chandra.svg"
   },
   { 
     name: "Mochammad Bachrul Ulum",
-    image: "/assets/team/member.svg"
+    image: "/assets/about/member-bahrul.svg"
   },
   { 
     name: "Farrel Azarya Zidan Andika",
-    image: "/assets/team/member.svg"
+    image: "/assets/about/member-zidan.svg"
   }
 ];
 

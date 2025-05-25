@@ -16,7 +16,7 @@ type VariantType =
 type SizeType = 'sm' | 'md' | 'lg' | 'icon';
 
 const variants: Record<VariantType, string> = {
-  default: "bg-teal-700 text-white hover:bg-teal-800",
+  default: "bg-teal-600 text-white hover:bg-teal-700",
   primary: "bg-blue-600 text-white hover:bg-blue-700",
   secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
   accent: "bg-orange-500 text-white hover:bg-orange-600",

@@ -38,7 +38,7 @@ export default function LandingPage() {
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center">
               <div className="mb-6 bg-[#EAFEFC] p-4 rounded-xl shadow-md">
-                <Image src="/assets/homepage/feature.svg" alt="Personalized Menu" width={64} height={64} />
+                <Image src="/assets/homepage/personalized-menu.svg" alt="Personalized Menu" width={64} height={64} />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Personalized Menu</h3>
               <p className="text-gray-600">Food recommendations tailored to your tastes, allergies, and personal nutritional needs.</p>
@@ -47,7 +47,7 @@ export default function LandingPage() {
             {/* Feature 2 */}
             <div className="flex flex-col items-center text-center">
               <div className="mb-6 bg-[#EAFEFC] p-4 rounded-xl shadow-md">
-                <Image src="/assets/homepage/feature.svg" alt="Instant Access" width={64} height={64} />
+                <Image src="/assets/homepage/instant-access.svg" alt="Instant Access" width={64} height={64} />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Instant Access</h3>
               <p className="text-gray-600">Just fill in your data and get instant results.</p>
@@ -56,7 +56,7 @@ export default function LandingPage() {
             {/* Feature 3 */}
             <div className="flex flex-col items-center text-center">
               <div className="mb-6 bg-[#EAFEFC] p-4 rounded-xl shadow-md">
-                <Image src="/assets/homepage/feature.svg" alt="Smart Optimization" width={64} height={64} />
+                <Image src="/assets/homepage/smart-optimization.svg" alt="Smart Optimization" width={64} height={64} />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Smart Optimization</h3>
               <p className="text-gray-600">Your diet menu is optimized using the Particle Swarm Optimization (PSO) algorithm to match your specific diet goals.</p>

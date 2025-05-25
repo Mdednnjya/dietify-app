@@ -10,7 +10,7 @@ export const AboutHero: React.FC = () => {
       {/* Hero Illustration */}
       <div className="mb-12">
         <Image 
-          src="/assets/homepage/hero-section.svg" 
+          src="/assets/about/hero-section.svg" 
           alt="About us illustration" 
           width={400} 
           height={300} 

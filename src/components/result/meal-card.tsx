@@ -1,12 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
 import { NutritionInfo } from './nutrition-info';
 
 interface MealCardProps {
   meal: {
     id: string;
     name: string;
-    image?: string;
     nutrition: {
       calories: number;
       protein: number;
@@ -20,15 +18,14 @@ interface MealCardProps {
 export const MealCard: React.FC<MealCardProps> = ({ meal }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-200 w-full max-w-sm mx-auto">
-      {/* Meal Image */}
-      <div className="relative h-48 sm:h-56 md:h-48 lg:h-52 w-full bg-gray-100">
-        <Image
-          src={meal.image || "/api/placeholder/400/300"}
-          alt={meal.name}
-          fill
-          className="object-cover"
-          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 400px"
-        />
+      {/* Gradient/Pattern Placeholder */}
+      <div
+        className="h-32 w-full flex items-center justify-center rounded-t-lg"
+        style={{
+          background: 'linear-gradient(135deg, #B4EBE6 0%, #7ED6DF 100%)'
+        }}
+      >
+        <span className="text-4xl font-bold text-white drop-shadow">🍽️</span>
       </div>
 
       {/* Meal Content */}
